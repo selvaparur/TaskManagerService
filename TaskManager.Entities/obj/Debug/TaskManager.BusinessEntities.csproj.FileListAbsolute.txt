@@ -1,0 +1,5 @@
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Entities\bin\Debug\TaskManager.BusinessEntities.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Entities\bin\Debug\TaskManager.BusinessEntities.pdb
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Entities\obj\Debug\TaskManager.BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Entities\obj\Debug\TaskManager.BusinessEntities.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Entities\obj\Debug\TaskManager.BusinessEntities.pdb

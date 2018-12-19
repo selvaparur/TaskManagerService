@@ -1,0 +1,11 @@
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\TaskManager.BL.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\TaskManager.BL.pdb
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\TaskManager.BusinessEntities.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\TaskManager.DAO.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\EntityFramework.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\TaskManager.BusinessEntities.pdb
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\TaskManager.DAO.pdb
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\bin\Debug\EntityFramework.xml
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\obj\Debug\TaskManager.BL.csprojResolveAssemblyReference.cache
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\obj\Debug\TaskManager.BL.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Business\obj\Debug\TaskManager.BL.pdb

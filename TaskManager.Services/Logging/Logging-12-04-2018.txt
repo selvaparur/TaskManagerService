@@ -1,0 +1,1166 @@
+12/4/2018 9:02:35 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:03:27 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+Response: "{\"Message\":\"The requested resource does not support http method 'OPTIONS'.\"}"
+
+12/4/2018 9:03:46 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+Response: "{\"Message\":\"The requested resource does not support http method 'OPTIONS'.\"}"
+
+12/4/2018 9:03:52 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+Response: "{\"Message\":\"The requested resource does not support http method 'OPTIONS'.\"}"
+
+12/4/2018 9:05:11 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:05:31 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+Response: "{\"Message\":\"The requested resource does not support http method 'OPTIONS'.\"}"
+
+12/4/2018 9:06:10 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+Response: "{\"Message\":\"The requested resource does not support http method 'OPTIONS'.\"}"
+
+12/4/2018 9:08:51 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 9:09:32 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 9:12:17 PM ERROR Reference Id: 3ae03c6b-a6a3-4571-b32a-72c8f05f1132, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:12:17 PM ERROR Reference Id: 96e2981f-d5bb-49fd-b58c-8e2437e3b991, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:12:17 PM INFO Request Uri: POST http://localhost/ProjectManager.Services/v1/tasks, 
+Request: '{"taskId":0,"taskName":"fdsfs","isParentTask":false,"priority":0,"parentTaskId":0,"parentTaskName":"","startDate":"2018-12-04","endDate":"2018-12-05"}'
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[]"
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[]"
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"96e2981f-d5bb-49fd-b58c-8e2437e3b991\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"3ae03c6b-a6a3-4571-b32a-72c8f05f1132\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:12:17 PM ERROR Reference Id: 5758e421-c377-4f4e-95a5-427153e90310, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"5758e421-c377-4f4e-95a5-427153e90310\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:12:17 PM ERROR Reference Id: bc1d9685-9602-4837-9184-ba1560c061cd, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"bc1d9685-9602-4837-9184-ba1560c061cd\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:12:17 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:14:20 PM ERROR Reference Id: 3c945498-a5a5-4a13-9c31-aff58c69ce26, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:14:20 PM ERROR Reference Id: 11f463dd-79fe-41fa-9942-9c3078618458, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:14:20 PM ERROR Reference Id: 1e53793d-4a82-4632-9440-faca52febb9a, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"}]"
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"3c945498-a5a5-4a13-9c31-aff58c69ce26\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"11f463dd-79fe-41fa-9942-9c3078618458\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"1e53793d-4a82-4632-9440-faca52febb9a\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:14:20 PM ERROR Reference Id: c3e54936-85c0-4a1c-862b-160a42a733b5, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"}]"
+
+12/4/2018 9:14:20 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"c3e54936-85c0-4a1c-862b-160a42a733b5\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:15:22 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"}]"
+
+12/4/2018 9:15:27 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"}]"
+
+12/4/2018 9:15:29 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"}]"
+
+12/4/2018 9:18:17 PM INFO Request Uri: POST http://localhost/ProjectManager.Services/v1/tasks, 
+Request: '{"taskId":0,"taskName":"jgyujtu","isParentTask":false,"priority":18,"parentTaskId":0,"parentTaskName":"","startDate":"2018-12-04","endDate":"2018-12-05"}'
+
+12/4/2018 9:18:54 PM ERROR Reference Id: 5e5845cd-4baf-431e-9e91-1e7f8721d499, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:18:56 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"5e5845cd-4baf-431e-9e91-1e7f8721d499\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:18:57 PM ERROR Reference Id: 7b956cdc-c2ee-4a03-99d4-c635d24effd8, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:18:58 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"7b956cdc-c2ee-4a03-99d4-c635d24effd8\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:18:59 PM ERROR Reference Id: 631835e2-874c-476a-81e2-1aed22454871, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:19:02 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"631835e2-874c-476a-81e2-1aed22454871\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:19:03 PM ERROR Reference Id: 43776652-cbf6-4616-b6a8-47fac9bdb00c, Details System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception: The handle is invalid
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.SNIWritePacket(SNIHandle handle, SNIPacket packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)
+   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()
+   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean sync, Boolean callerHasConnectionLock)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ParentTaskBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ParentTaskBusiness.cs:line 26
+   at ProjectManager.Business.TaskBusiness.GetAllTasks() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\TaskBusiness.cs:line 85
+   at ProjectManager.Services.Controllers.TasksController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\TasksController.cs:line 36
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:19:04 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "{\"Message\":\"An error occurred while executing the command definition. See the inner exception for details.\",\"ReferenceId\":\"43776652-cbf6-4616-b6a8-47fac9bdb00c\",\"Details\":\"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when sending the request to the server. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception: The handle is invalid\\r\\n   --- End of inner exception stack trace ---\\r\\n   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\\r\\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\\r\\n   at System.Data.SqlClient.TdsParserStateObject.SNIWritePacket(SNIHandle handle, SNIPacket packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock)\\r\\n   at System.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)\\r\\n   at System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)\\r\\n   at System.Data.SqlClient.TdsParserStateObject.ExecuteFlush()\\r\\n   at System.Data.SqlClient.TdsParser.TdsExecuteSQLBatch(String text, Int32 timeout, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean sync, Boolean callerHasConnectionLock)\\r\\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\\r\\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)\\r\\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\\r\\n   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)\\r\\n   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)\\r\\n   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)\\r\\n   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)\\r\\n   --- End of inner exception stack trace ---\\r\\n   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)\\r\\n   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)\\r\\n   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)\\r\\n   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()\\r\\n   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)\\r\\n   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)\\r\\n   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()\\r\\n   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ParentTaskBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ParentTaskBusiness.cs:line 26\\r\\n   at ProjectManager.Business.TaskBusiness.GetAllTasks() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\TaskBusiness.cs:line 85\\r\\n   at ProjectManager.Services.Controllers.TasksController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\TasksController.cs:line 36\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:19:12 PM ERROR Reference Id: 2ba2d76a-a319-4b75-a440-f7a5b8f37d55, Details System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception: The handle is invalid
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ParentTaskBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ParentTaskBusiness.cs:line 26
+   at ProjectManager.Business.TaskBusiness.GetAllTasks() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\TaskBusiness.cs:line 85
+   at ProjectManager.Services.Controllers.TasksController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\TasksController.cs:line 36
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:19:13 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "{\"Message\":\"An error occurred while executing the command definition. See the inner exception for details.\",\"ReferenceId\":\"2ba2d76a-a319-4b75-a440-f7a5b8f37d55\",\"Details\":\"System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: Shared Memory Provider, error: 0 - The handle is invalid.) ---> System.ComponentModel.Win32Exception: The handle is invalid\\r\\n   --- End of inner exception stack trace ---\\r\\n   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\\r\\n   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\\r\\n   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)\\r\\n   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()\\r\\n   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()\\r\\n   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()\\r\\n   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)\\r\\n   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\\r\\n   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()\\r\\n   at System.Data.SqlClient.SqlDataReader.get_MetaData()\\r\\n   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)\\r\\n   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)\\r\\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)\\r\\n   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)\\r\\n   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)\\r\\n   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)\\r\\n   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)\\r\\n   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)\\r\\n   --- End of inner exception stack trace ---\\r\\n   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)\\r\\n   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)\\r\\n   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)\\r\\n   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()\\r\\n   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)\\r\\n   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)\\r\\n   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()\\r\\n   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ParentTaskBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ParentTaskBusiness.cs:line 26\\r\\n   at ProjectManager.Business.TaskBusiness.GetAllTasks() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\TaskBusiness.cs:line 85\\r\\n   at ProjectManager.Services.Controllers.TasksController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\TasksController.cs:line 36\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:19:13 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:19:19 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:19:19 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:19:39 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:19:39 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:19:56 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:19:56 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:20:23 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:20:23 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:21:04 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:21:04 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:21:37 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:21:37 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:26:25 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:27:03 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:27:03 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:32:06 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:32:07 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:32:07 PM ERROR Reference Id: 4c632126-772d-48ce-8201-0516476bfc68, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:32:13 PM INFO Request Uri: GET http://localhost:3758/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"4c632126-772d-48ce-8201-0516476bfc68\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:32:13 PM ERROR Reference Id: 6649fdf0-e636-46c0-9ebd-b42b1b43d6fe, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:32:13 PM INFO Request Uri: GET http://localhost:3758/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"6649fdf0-e636-46c0-9ebd-b42b1b43d6fe\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:32:14 PM ERROR Reference Id: 612433e3-5852-445f-b259-8333f51c4db3, Details System.InvalidOperationException: The entity type Project is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.Repositories.Repository`1.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 21
+   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\ProjectBusiness.cs:line 39
+   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\ProjectsController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 9:32:14 PM INFO Request Uri: GET http://localhost:3758/v1/projects, 
+Response: "{\"Message\":\"The entity type Project is not part of the model for the current context.\",\"ReferenceId\":\"612433e3-5852-445f-b259-8333f51c4db3\",\"Details\":\"System.InvalidOperationException: The entity type Project is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()\\r\\n   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()\\r\\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\\r\\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\\r\\n   at ProjectManager.Repositories.Repository`1.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 21\\r\\n   at ProjectManager.Business.ProjectBusiness.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\ProjectBusiness.cs:line 39\\r\\n   at ProjectManager.Services.Controllers.ProjectsController.GetAll() in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\ProjectsController.cs:line 22\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 9:32:24 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:32:24 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:39:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:39:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:48:09 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:48:09 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"}]"
+
+12/4/2018 9:48:34 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 9:48:35 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"TEST1","isParentTask":false,"priority":11,"parentTaskId":0,"parentTaskName":"","startDate":"2018-12-01","endDate":"2018-12-05"}'
+
+12/4/2018 9:49:32 PM INFO Request Uri: GET http://localhost:3758/v1/projects, 
+Response: "[]"
+
+12/4/2018 9:49:33 PM INFO Request Uri: GET http://localhost:3758/v1/projects, 
+Response: "[]"
+
+12/4/2018 9:49:56 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:49:57 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:50:13 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 9:50:13 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 9:51:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 9:51:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 9:51:41 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:52:04 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[]"
+
+12/4/2018 9:52:26 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 9:52:26 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 9:53:10 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:02:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 10:02:17 PM ERROR Reference Id: 6bcf4125-4e16-4dfc-bb30-af0dadbeec2a, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 10:02:17 PM ERROR Reference Id: 9173f6c2-7748-4f19-a5ff-cd808ff7df06, Details System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 10:02:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"}]"
+
+12/4/2018 10:02:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "{\"Message\":\"A task was canceled.\",\"ReferenceId\":\"9173f6c2-7748-4f19-a5ff-cd808ff7df06\",\"Details\":\"System.Threading.Tasks.TaskCanceledException: A task was canceled.\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 10:02:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "{\"Message\":\"A task was canceled.\",\"ReferenceId\":\"6bcf4125-4e16-4dfc-bb30-af0dadbeec2a\",\"Details\":\"System.Threading.Tasks.TaskCanceledException: A task was canceled.\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 10:02:18 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"TEESklfsd","isParentTask":false,"priority":15,"parentTaskId":0,"parentTaskName":"","startDate":"2018-12-01","endDate":"2018-12-05"}'
+
+12/4/2018 10:02:59 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:02:59 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:04:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:04:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:04:32 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:04:32 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:04:41 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:04:41 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:01 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:01 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:14 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:14 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:27 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:27 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:41 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:06:41 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:07:39 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:07:39 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:08:26 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:08:26 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:09:18 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:09:18 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:11:56 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:11:56 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:12:25 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:12:25 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:12:46 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:12:46 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:15:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:15:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:15:20 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:15:20 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:20:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:20:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:20:21 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:20:21 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:21:26 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:21:26 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:21:37 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:21:53 PM ERROR Reference Id: 0291f151-5cf9-45e2-b791-0b6736189725, Details System.InvalidOperationException: The entity type User is not part of the model for the current context.
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at ProjectManager.Repositories.Repository`1.GetById(Object id) in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Repositories\Repository.cs:line 25
+   at ProjectManager.Business.TaskBusiness.Save(TaskViewModel model) in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Business\TaskBusiness.cs:line 74
+   at ProjectManager.Services.Controllers.TasksController.Save(TaskViewModel model) in C:\shared\IIHT\Refererce\ProjectManagerServices\ProjectManager.Services\Controllers\TasksController.cs:line 44
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+12/4/2018 10:21:53 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"fdgfdgfhfghfgh","isParentTask":false,"priority":23,"parentTaskId":"2","parentTaskName":"jgyujtu","startDate":"2018-12-04","endDate":"2018-12-05"}'
+Response: "{\"Message\":\"The entity type User is not part of the model for the current context.\",\"ReferenceId\":\"0291f151-5cf9-45e2-b791-0b6736189725\",\"Details\":\"System.InvalidOperationException: The entity type User is not part of the model for the current context.\\r\\n   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()\\r\\n   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)\\r\\n   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)\\r\\n   at ProjectManager.Repositories.Repository`1.GetById(Object id) in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Repositories\\\\Repository.cs:line 25\\r\\n   at ProjectManager.Business.TaskBusiness.Save(TaskViewModel model) in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Business\\\\TaskBusiness.cs:line 74\\r\\n   at ProjectManager.Services.Controllers.TasksController.Save(TaskViewModel model) in C:\\\\shared\\\\IIHT\\\\Refererce\\\\ProjectManagerServices\\\\ProjectManager.Services\\\\Controllers\\\\TasksController.cs:line 44\\r\\n   at lambda_method(Closure , Object , Object[] )\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)\\r\\n   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()\\r\\n--- End of stack trace from previous location where exception was thrown ---\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\\r\\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\\r\\n   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()\"}"
+
+12/4/2018 10:22:19 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:22:19 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"}]"
+
+12/4/2018 10:22:33 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:22:44 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"fsdfdsf","isParentTask":false,"priority":0,"parentTaskId":0,"parentTaskName":"","startDate":"2018-12-04","endDate":"2018-12-05"}'
+
+12/4/2018 10:22:46 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:22:47 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:22:58 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"}]"
+
+12/4/2018 10:22:58 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"}]"
+
+12/4/2018 10:23:06 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:23:28 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"fdsfgfd","isParentTask":false,"priority":0,"parentTaskId":"3","parentTaskName":"TEST1","startDate":"2018-12-04","endDate":"2018-12-05"}'
+
+12/4/2018 10:23:45 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:23:50 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:23:56 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"}]"
+
+12/4/2018 10:23:59 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"}]"
+
+12/4/2018 10:24:00 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/1, 
+Response: "{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 10:24:00 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/1, 
+Response: "{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 10:24:08 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:24:55 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"}]"
+
+12/4/2018 10:24:55 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"}]"
+
+12/4/2018 10:25:00 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:25:02 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"fghfhf","isParentTask":false,"priority":0,"parentTaskId":0,"parentTaskName":"","startDate":"2018-12-04","endDate":"2018-12-05"}'
+
+12/4/2018 10:25:02 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:25:02 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:25:31 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:25:31 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:25:37 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:25:39 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"hfghf","isParentTask":false,"priority":0,"parentTaskId":"4","parentTaskName":"TEESklfsd","startDate":"2018-12-04","endDate":"2018-12-05"}'
+
+12/4/2018 10:25:39 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:25:39 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:25:59 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:25:59 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:26:02 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:26:03 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:26:07 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:26:07 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:28:48 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:28:48 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:29:08 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks/complete, 
+
+12/4/2018 10:29:08 PM INFO Request Uri: POST http://localhost:3758/v1/tasks/complete, 
+Request: '{"TaskId":1,"TaskName":"fdgfdgfhfghfgh","ProjectId":0,"ProjectName":null,"Priority":23,"ParentTaskId":3,"ParentTaskName":"TEST1","StartDate":"2018-12-04T00:00:00","EndDate":"2018-12-05T00:00:00","ManagerId":0,"ManagerName":"","Status":"No"}'
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.3380374+05:30\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:30:45 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:30:45 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:35:01 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:37:34 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:37:38 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"Mah-Task","isParentTask":false,"priority":16,"parentTaskId":"2","parentTaskName":"jgyujtu","startDate":"2018-01-01","endDate":"2018-12-31"}'
+
+12/4/2018 10:37:41 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:37:42 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:37:52 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:37:52 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:37:52 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/2, 
+Response: "{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 10:37:52 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/2, 
+Response: "{\"TaskId\":2,\"TaskName\":\"fdsfgfd\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 10:39:00 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:39:32 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":2,"taskName":"AA-Task","isParentTask":false,"priority":0,"parentTaskId":3,"parentTaskName":"TEST1","startDate":"2018-02-05","endDate":"2018-12-31"}'
+
+12/4/2018 10:39:44 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:40:12 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:54:29 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:54:29 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/3, 
+Response: "{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 10:54:29 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:54:29 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/3, 
+Response: "{\"TaskId\":3,\"TaskName\":\"hfghf\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-05T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 10:55:01 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:55:06 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":3,"taskName":"BA-Task","isParentTask":false,"priority":7,"parentTaskId":"4","parentTaskName":"TEESklfsd","startDate":"2018-01-10","endDate":"2018-12-31"}'
+
+12/4/2018 10:55:07 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:55:08 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:55:21 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:55:21 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 10:55:57 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 10:55:59 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"Add-Task","isParentTask":false,"priority":0,"parentTaskId":"4","parentTaskName":"TEESklfsd","startDate":"2018-01-01","endDate":"2018-12-31"}'
+
+12/4/2018 10:56:00 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 10:56:01 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:54:12 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:55:27 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:55:28 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:55:36 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:55:36 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:55:36 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/5, 
+Response: "{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 11:55:36 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/5, 
+Response: "{\"TaskId\":5,\"TaskName\":\"Add-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 11:55:56 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 11:55:59 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":5,"taskName":"CA-Task","isParentTask":false,"priority":0,"parentTaskId":"4","parentTaskName":"TEESklfsd","startDate":"2018-01-01","endDate":"2018-12-31"}'
+
+12/4/2018 11:56:00 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:56:01 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:58:27 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:58:27 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:59:14 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 11:59:16 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":0,"taskName":"Add New Task","isParentTask":false,"priority":12,"parentTaskId":"6","parentTaskName":"fghfhf","startDate":"2018-01-01","endDate":"2018-12-31"}'
+
+12/4/2018 11:59:17 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:59:18 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:59:35 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:59:35 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:59:39 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:59:40 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:59:43 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:59:43 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/6, 
+Response: "{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 11:59:43 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"fdsfs\"},{\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\"},{\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\"},{\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\"},{\"ParentTaskId\":5,\"ParentTaskName\":\"fsdfdsf\"},{\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\"}]"
+
+12/4/2018 11:59:43 PM INFO Request Uri: GET http://localhost:3758/v1/tasks/6, 
+Response: "{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":6,\"ParentTaskName\":\"fghfhf\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}"
+
+12/4/2018 11:59:50 PM INFO Request Uri: OPTIONS http://localhost:3758/v1/tasks, 
+
+12/4/2018 11:59:52 PM INFO Request Uri: POST http://localhost:3758/v1/tasks, 
+Request: '{"taskId":6,"taskName":"Add New Task","isParentTask":false,"priority":12,"parentTaskId":"3","parentTaskName":"TEST1","startDate":"2018-01-01","endDate":"2018-12-31"}'
+
+12/4/2018 11:59:52 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+
+12/4/2018 11:59:53 PM INFO Request Uri: GET http://localhost:3758/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"fdgfdgfhfghfgh\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":23,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-12-04T00:00:00\",\"EndDate\":\"2018-12-04T22:29:08.337\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"Yes\"},{\"TaskId\":2,\"TaskName\":\"AA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-02-05T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":3,\"TaskName\":\"BA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":7,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-10T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":4,\"TaskName\":\"Mah-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":16,\"ParentTaskId\":2,\"ParentTaskName\":\"jgyujtu\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":5,\"TaskName\":\"CA-Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":0,\"ParentTaskId\":4,\"ParentTaskName\":\"TEESklfsd\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"},{\"TaskId\":6,\"TaskName\":\"Add New Task\",\"ProjectId\":0,\"ProjectName\":null,\"Priority\":12,\"ParentTaskId\":3,\"ParentTaskName\":\"TEST1\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2018-12-31T00:00:00\",\"ManagerId\":0,\"ManagerName\":\"\",\"Status\":\"No\"}]"
+

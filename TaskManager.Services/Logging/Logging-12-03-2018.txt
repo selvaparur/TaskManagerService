@@ -1,0 +1,42 @@
+12/3/2018 9:36:12 PM INFO Request Uri: GET http://localhost:3758/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"NJESU\",\"LastName\":\"NALLATHAMBI\",\"EmployeeId\":123456,\"ProjectId\":1,\"TaskId\":1}]"
+
+12/3/2018 9:51:24 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"CHILD TASK-1\",\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"Priority\":22,\"ParentTaskId\":1,\"ParentTaskName\":\"BASE TASK\",\"StartDate\":\"2013-11-11T00:00:00\",\"EndDate\":\"2016-03-01T00:00:00\",\"ManagerId\":1,\"ManagerName\":\"NJESU NALLATHAMBI\",\"Status\":\"No\"}]"
+
+12/3/2018 9:51:29 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2019-01-31T00:00:00\",\"Priority\":68,\"Manager\":\"NJESU NALLATHAMBI\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+12/3/2018 9:51:29 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"CHILD TASK-1\",\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"Priority\":22,\"ParentTaskId\":1,\"ParentTaskName\":\"BASE TASK\",\"StartDate\":\"2013-11-11T00:00:00\",\"EndDate\":\"2016-03-01T00:00:00\",\"ManagerId\":1,\"ManagerName\":\"NJESU NALLATHAMBI\",\"Status\":\"No\"}]"
+
+12/3/2018 9:51:32 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"BASE TASK\"}]"
+
+12/3/2018 9:51:32 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"NJESU\",\"LastName\":\"NALLATHAMBI\",\"EmployeeId\":123456,\"ProjectId\":1,\"TaskId\":1}]"
+
+12/3/2018 9:51:34 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2019-01-31T00:00:00\",\"Priority\":68,\"Manager\":\"NJESU NALLATHAMBI\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+12/3/2018 9:51:35 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks/parent-tasks, 
+Response: "[{\"ParentTaskId\":1,\"ParentTaskName\":\"BASE TASK\"}]"
+
+12/3/2018 9:51:36 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/users, 
+Response: "[{\"UserId\":1,\"FirstName\":\"NJESU\",\"LastName\":\"NALLATHAMBI\",\"EmployeeId\":123456,\"ProjectId\":1,\"TaskId\":1}]"
+
+12/3/2018 9:51:38 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2019-01-31T00:00:00\",\"Priority\":68,\"Manager\":\"NJESU NALLATHAMBI\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+12/3/2018 9:52:40 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2019-01-31T00:00:00\",\"Priority\":68,\"Manager\":\"NJESU NALLATHAMBI\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+12/3/2018 9:52:40 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"CHILD TASK-1\",\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"Priority\":22,\"ParentTaskId\":1,\"ParentTaskName\":\"BASE TASK\",\"StartDate\":\"2013-11-11T00:00:00\",\"EndDate\":\"2016-03-01T00:00:00\",\"ManagerId\":1,\"ManagerName\":\"NJESU NALLATHAMBI\",\"Status\":\"No\"}]"
+
+12/3/2018 9:52:42 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/projects, 
+Response: "[{\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"StartDate\":\"2018-01-01T00:00:00\",\"EndDate\":\"2019-01-31T00:00:00\",\"Priority\":68,\"Manager\":\"NJESU NALLATHAMBI\",\"UserId\":1,\"NumberOfTasks\":1,\"Completed\":\"No\"}]"
+
+12/3/2018 9:52:42 PM INFO Request Uri: GET http://localhost/ProjectManager.Services/v1/tasks, 
+Response: "[{\"TaskId\":1,\"TaskName\":\"CHILD TASK-1\",\"ProjectId\":1,\"ProjectName\":\"TEST PROJECT\",\"Priority\":22,\"ParentTaskId\":1,\"ParentTaskName\":\"BASE TASK\",\"StartDate\":\"2013-11-11T00:00:00\",\"EndDate\":\"2016-03-01T00:00:00\",\"ManagerId\":1,\"ManagerName\":\"NJESU NALLATHAMBI\",\"Status\":\"No\"}]"
+

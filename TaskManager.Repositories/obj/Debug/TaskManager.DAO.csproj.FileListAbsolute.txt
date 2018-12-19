@@ -1,0 +1,12 @@
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\TaskManager.DAO.dll.config
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\TaskManager.DAO.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\TaskManager.DAO.pdb
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\EntityFramework.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\TaskManager.BusinessEntities.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\TaskManager.BusinessEntities.pdb
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\EntityFramework.xml
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\obj\Debug\TaskManager.DAO.csprojResolveAssemblyReference.cache
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\obj\Debug\TaskManager.DAO.dll
+C:\Work\RDPFSE\FSE\Capsule\TaskManagerServices\TaskManager.Repositories\obj\Debug\TaskManager.DAO.pdb
